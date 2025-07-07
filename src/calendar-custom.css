@@ -1,0 +1,37 @@
+/* Base calendar layout */
+.react-calendar {
+  width: 100%;
+  max-width: 400px;
+  background: #fefefe;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+  color: #555;
+}
+
+/* Today’s tile */
+.react-calendar__tile--now {
+  background: #ddeeff !important;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Active (clicked) tile */
+.react-calendar__tile--active {
+  background: #0077cc !important;
+  color: #fff !important;
+}
+
+/* Highlight appointment days */
+.has-appointment {
+  background-color: #fff3cd !important;
+  border: 2px solid #ffc107;
+  color: #333;
+  border-radius: 8px;
+}
