@@ -1,4 +1,4 @@
-# 🦷 Dental Center Management Dashboard
+# Dental Center Management Dashboard
 
 A full-featured web application for managing patients, appointments, and treatment records — designed for Admins and Patients with role-based access and clean user interface.
 
@@ -6,9 +6,9 @@ A full-featured web application for managing patients, appointments, and treatme
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👨‍⚕️ Admin View
+###  Admin View
 - Secure Admin Login
 - Manage Patients (Add / Edit / Delete)
 - View and schedule Appointments
@@ -20,7 +20,7 @@ A full-featured web application for managing patients, appointments, and treatme
 - Toast notifications across actions
 - Session timeout & logout flow
 
-### 🧑‍🦰 Patient View
+### Patient View
 - Secure Patient Login
 - View only their own appointments
 - See upcoming appointments
@@ -32,7 +32,7 @@ A full-featured web application for managing patients, appointments, and treatme
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer       | Technology                     |
 |------------|---------------------------------|
@@ -49,7 +49,7 @@ A full-featured web application for managing patients, appointments, and treatme
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -64,7 +64,7 @@ src/
 
 ---
 
-## ⚙️ Getting Started Locally
+##  Getting Started Locally
 
 ### 1. Clone the repository
 ```bash
@@ -86,7 +86,7 @@ npm run dev
 
 ---
 
-## ✅ Sample Credentials
+## Sample Credentials
 
 ### Admin
 ```
@@ -100,11 +100,11 @@ Email: ananya@entnt.in
 Password: patient123
 ```
 
-> 📌 More patients are pre-filled in the localStorage with realistic Indian data.
+> More patients are pre-filled in the localStorage with realistic Indian data.
 
 ---
 
-## 📦 Deployment
+## Deployment
 
 App is deployed using **Vercel**.  
 Build command: `npm run build`  
@@ -112,7 +112,7 @@ Output folder: `dist`
 
 ---
 
-## 📌 Technical Decisions
+## Technical Decisions
 
 - Used **Context API** for simplicity and lightweight global state.
 - Implemented **custom CSS** for full control and responsiveness.
@@ -123,7 +123,7 @@ Output folder: `dist`
 
 ---
 
-## 📝 Known Issues / Scope
+## Known Issues / Scope
 
 - No backend/API — relies entirely on `localStorage`
 - Auth is local, not secure for production
